@@ -1,0 +1,26 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Here is where I show you what I know and what I can do",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caarbelaezg/portafolio.git"
+  },
+  "keywords": [
+    "portafolio",
+    "web",
+    "development",
+    "reactjs",
+    "nodejs"
+  ],
+  "author": "Carlos Arbelaez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caarbelaezg/portafolio/issues"
+  },
+  "homepage": "https://github.com/caarbelaezg/portafolio#readme"
+}
