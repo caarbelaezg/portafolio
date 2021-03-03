@@ -1,11 +1,29 @@
+<<<<<<< HEAD
 # Node template
 
+=======
+>>>>>>> master
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+=======
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Firebase cache
+.firebase/
+
+# Firebase config
+
+# Uncomment this if you'd like others to create their own Firebase project.
+# For a team working on the same Firebase project(s), it is recommended to leave
+# it commented so all members can deploy to the same project(s) in .firebaserc.
+# .firebaserc
+>>>>>>> master
 
 # Runtime data
 pids
@@ -31,15 +49,22 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+<<<<<<< HEAD
 # Compiled binary addons (https://nodejs.org/api/addons.html)
+=======
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+>>>>>>> master
 build/Release
 
 # Dependency directories
 node_modules/
+<<<<<<< HEAD
 jspm_packages/
 
 # Typescript v1 declaration files
 typings/
+=======
+>>>>>>> master
 
 # Optional npm cache directory
 .npm
@@ -58,6 +83,7 @@ typings/
 
 # dotenv environment variables file
 .env
+<<<<<<< HEAD
 
 # IDE
 .idea/*
@@ -74,3 +100,5 @@ yarn-error.log
 
 # Build
 dist/
+=======
+>>>>>>> master
