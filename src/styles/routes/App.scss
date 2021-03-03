@@ -1,0 +1,19 @@
+/*Here I put my own configurations*/
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+/*Base*/
+@import '../base/base.scss';
+@import '../base/variables.scss';
+@import '../base/tipography.scss';
+@import '../base/animations.scss';
+
+/*Abstracts */
+@import "../abstracts/mixins.scss";
+
+/*Components*/
+@import "../components/Header.scss";
+/*Containers*/
+
+/*UI elements*/
+@import '../UI/Logo.scss';
+@import '../UI/Hamburger.scss';
