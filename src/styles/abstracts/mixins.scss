@@ -1,0 +1,78 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-col-center {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//Media Query Manager
+/*
+0 - 600px -> phone
+600 - 900px -> Tablet portrait
+900 -1200px -> tablet landscape
+1200 - 1800px -> where styles apply
+1800 + big desktop
+
+$breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-desk
+
+Los media querys no son afectados por la configuración
+inicial del font size en el tag html. Para que los MQ
+funcionen mejor se usan EM's no REM's
+
+teniendo en cuenta que 1em = 16px
+
+ORDER para los media querys: BASE + typography > general layout + grid > components
+*/
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone-m {
+    @media (min-width: 23.4375em) {
+      //375px
+      @content;
+    }
+  }
+  @if $breakpoint == phone-l {
+    @media (min-width: 26.5625em) {
+      //375px
+      @content;
+    }
+  } 
+  @if $breakpoint == tab {
+    @media (min-width: 48em) {
+      //768px
+      @content;
+    }
+  }
+  @if $breakpoint == tab-m {
+    @media (min-width: 36.875em) {
+      //768px
+      @content;
+    }
+  }
+  @if $breakpoint == laptop {
+    @media (min-width: 64em) {
+      //1024px
+      @content;
+    }
+  }
+  @if $breakpoint == laptop-l {
+    @media (min-width: 90em) {
+      //1440px
+      @content;
+    }
+  }
+}

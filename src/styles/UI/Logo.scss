@@ -1,0 +1,19 @@
+.logo {
+  @include flex-col-center;
+  align-items: flex-start;
+  justify-content: center;
+  width: fit-content;
+
+
+  &__text-1 {
+    font-size: 3.5rem;
+  }
+  &__text-2 {
+    font-size: 1rem;
+  }
+  &__pipe {
+    color: #2e5eaa;
+    font-size: 4rem;
+    font-style: italic;
+  }
+}
