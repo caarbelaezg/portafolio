@@ -1,19 +1,28 @@
 .logo {
   @include flex-col-center;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   width: fit-content;
 
 
   &__text-1 {
     font-size: 3.5rem;
+    @include respond(tab){
+      font-size: 4rem;
+    }
   }
   &__text-2 {
     font-size: 1rem;
+    @include respond(tab){
+      font-size: 1.5rem;
+    }
   }
   &__pipe {
     color: #2e5eaa;
     font-size: 4rem;
     font-style: italic;
+    @include respond(tab){
+      font-size: 4.5rem;
+    }
   }
 }

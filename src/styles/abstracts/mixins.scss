@@ -50,15 +50,15 @@ ORDER para los media querys: BASE + typography > general layout + grid > compone
       //375px
       @content;
     }
-  } 
-  @if $breakpoint == tab {
-    @media (min-width: 48em) {
+  }
+  @if $breakpoint == tab-m {
+    @media (min-width: 36.875em) {
       //768px
       @content;
     }
   }
-  @if $breakpoint == tab-m {
-    @media (min-width: 36.875em) {
+  @if $breakpoint == tab {
+    @media (min-width: 48em) {
       //768px
       @content;
     }
